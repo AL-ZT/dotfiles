@@ -72,6 +72,12 @@ return packer.startup(function(use)
   use({ "hrsh7th/cmp-nvim-lsp" })
   use({ "glepnir/lspsaga.nvim" })
 
+  use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
+
+  -- formatting & linting
+  use("jose-elias-alvarez/null-ls.nvim") -- configure formatters & linters
+  use("jayp0521/mason-null-ls.nvim") -- bridges gap b/w mason & null-ls
+
   -- Treesitter Syntax Hightlighting
   use({
 		"nvim-treesitter/nvim-treesitter",
