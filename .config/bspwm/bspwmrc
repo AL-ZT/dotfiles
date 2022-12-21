@@ -9,12 +9,16 @@ bspc monitor -d I II III
 bspc config border_width         0
 bspc config window_gap          12
 
-bspc config split_ratio          0.52
-bspc config borderless_monocle   true
-bspc config gapless_monocle      true
+bspc config split_ratio                 0.52
+bspc config borderless_monocle          true
+bspc config gapless_monocle             true
+bspc config pointer_follows_monitor     true
+bspc config focus_follows_pointer       true
 
-bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Brave-browser desktop='^2'
+#bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Brave-browser desktop='^3'
+bspc rule -a btop desktop='^1' state=floating
+bspc rule -a nvim desktop='^1' state=floating
 #bspc rule -a mplayer2 state=floating
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off

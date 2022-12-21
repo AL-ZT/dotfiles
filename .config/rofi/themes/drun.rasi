@@ -1,6 +1,6 @@
 /*****----- Global Properties -----*****/
 * {
-    font:                        "Scientifica 12";
+    font:                        "Fira Mono 12";
     background:                  #1A1B26;
     background-alt:              #1A1B26E0;
     foreground:                  #c0caf5;

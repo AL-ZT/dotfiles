@@ -53,10 +53,24 @@ return packer.startup(function(use)
   -- Auto Closing
   use({ "windwp/nvim-autopairs" })
 
-  -- cmp
-	use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
-	use({ "hrsh7th/cmp-buffer" }) -- buffer completions
-	use({ "hrsh7th/cmp-path" }) -- path completions
+  -- Basic Autocompletion / cmp
+  use({ "hrsh7th/nvim-cmp" }) -- The completion plugin
+  use({ "hrsh7th/cmp-buffer" }) -- buffer completions
+  use({ "hrsh7th/cmp-path" }) -- path completions
+
+  -- Snippets
+  use({ "saadparwaiz1/cmp_luasnip" })
+  use({ "L3MON4D3/LuaSnip" }) --snippet engine
+  use({ "rafamadriz/friendly-snippets" }) -- a bunch of snippets to use
+
+  -- Manage & Install LSP servers
+	use({ "williamboman/mason.nvim" }) -- Mason to install lsp servers
+  use({ "williamboman/mason-lspconfig.nvim" })
+
+  -- LSP Servers
+  use({ "neovim/nvim-lspconfig" }) -- enable LSP
+  use({ "hrsh7th/cmp-nvim-lsp" })
+  use({ "glepnir/lspsaga.nvim" })
 
   -- Treesitter Syntax Hightlighting
   use({

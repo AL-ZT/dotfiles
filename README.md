@@ -1,15 +1,15 @@
 # My Arch Linux Rice
-| Applications | | Dependencies |
-| **WM** | BSPWM | sxhkd |
-| **Bar** | Polybar | |
-| **Menu** | Rofi | |
-| **Compositor** | Picom | |
-| **Terminal** | kitty + Powerline + Neovim | ripgrep |
-| **Font & Glyphs** | Fira Mono, Font Awesome, MesloLGS NF | |
-| **FM** | nnn | |
-| **Browser** | brave | |
-| **AUR Helper** | yay | |
-| **Wallpaper** | nitrogen | |
+|Applications||Dependencies|
+|**WM**|BSPWM|sxhkd|
+|**Bar**|Polybar||
+|**Menu**|Rofi||
+|**Compositor**|Picom||
+|**Terminal**|kitty + Powerline + Neovim|ripgrep|
+|**Font & Glyphs**|Fira Mono, Font Awesome, MesloLGS NF||
+|**FM**|nnn||
+|**Browser**|brave||
+|**AUR Helper**|yay||
+|**Wallpaper**|nitrogen||
 
 ## Other Optional Dependencies
 Dual Boot: os-prober

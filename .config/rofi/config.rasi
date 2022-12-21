@@ -1,5 +1,5 @@
 configuration {
-	modi: "drun";
+	modi: "drun,filebrowser";
 	icon-theme: "Papirus";
 	application-fallback-icon: "Adwaita";
  	show-icons: true;
@@ -7,4 +7,4 @@ configuration {
 	sidebar-mode: false;
 }
 
-@theme "./themes/theme.rasi"
+@theme "./themes/drun.rasi"
