@@ -1,4 +1,4 @@
-# My Arch Linux Rice
+<p align='center'>
 | Applications | Dependencies |
 |--------------|--------------|
 | **BSPWM (WM)** | sxhkd |
@@ -12,6 +12,7 @@
 | **AUR Helper** | yay |
 | **Nitrogen (Wallpaper)** | |
 | **Neovim (Text Editor)** | ripgrep, wget |
+</p>
 
 ## Other Optional Dependencies
 Dual Boot: os-prober
